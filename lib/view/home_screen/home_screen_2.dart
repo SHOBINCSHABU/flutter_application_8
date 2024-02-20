@@ -14,6 +14,7 @@ class HomeScreen2 extends StatelessWidget {
         actions: [
           CircleAvatar(
             radius: 20,
+            backgroundImage: NetworkImage("https://th.bing.com/th/id/OIP.7AqjyxLCbd4wg_ZKpfVoVgAAAA?w=330&h=330&rs=1&pid=ImgDetMain"),
           ),
           SizedBox(
             width: 15,
@@ -35,7 +36,7 @@ class HomeScreen2 extends StatelessWidget {
                 Text(
                   'Main Account',
                   style: TextStyle(
-                      color: Colors.purple, fontWeight: FontWeight.bold),
+                      color: const Color.fromARGB(255, 217, 0, 255), fontWeight: FontWeight.bold),
                 ),
                 Icon(Icons.arrow_drop_down)
               ],
@@ -47,11 +48,10 @@ class HomeScreen2 extends StatelessWidget {
               children: [
                 Text(
                   '13.458',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
                 ),
               ],
             ),
-            // Icon(Icons.arrow_drop_down),
             Text('Current balance'),
             SizedBox(
               height: 10,
